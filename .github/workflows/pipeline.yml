@@ -25,4 +25,4 @@ jobs:
     - name: Run TestProject2 tests
       run: dotnet test TestProject2/TestProject2.csproj --no-build --verbosity normal
     - name: Run TestProject3 tests
-      run: dotnet test TestProject3/TestProject3.csproj --no-build --verbosity detailed
+      run: dotnet test TestProject3/TestProject3.csproj --no-build --verbosity quiet
